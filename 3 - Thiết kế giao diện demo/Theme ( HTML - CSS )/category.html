@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Category </title>
+
+    <!--===================================== Icon home page ==========================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+
+    <!--======================================== CSS Link ============================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-5.0.8/css/fontawesome-all.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/swiper/swiper.min.css">
+</head>
+
+<body class="animsition">
+
+    <!-- Header = Topbar + Logo + Menu  -->
+    <header>
+        <div class="container-menu-desktop">
+            <!-- 1 - Topbar  -->
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="left-topbar">
+                                <div class="left-topbar-item flex-wr-s-c">
+                                    <span>
+                                        Viet Nam , VN
+                                    </span>
+
+                                    <img class="m-b-1 m-rl-8" src="images/icons/icon-night.png" alt="IMG">
+
+                                    <span>
+                                        VN 58° LO 56°
+                                    </span>
+                                    <a href="#">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-pinterest-p"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-vimeo-v"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-youtube"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="right-topbar">
+                                <a href="about.html" class="right-topbar-item">
+                                    Về chúng tôi
+                                </a>
+
+                                <a href="contact.html" class="right-topbar-item">
+                                    Liên hệ
+                                </a>
+
+                                <a href="register.html" class="right-topbar-item">
+                                    Đăng ký
+                                </a>
+
+                                <a href="login.html" class="right-topbar-item">
+                                    Đăng nhập
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 - Logo + Search  -->
+            <div class="wrap-logo">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo desktop -->
+                        <div class="col-md-3 logo">
+                            <a href="index.html"><img src="images/icons/logo-01.png" alt="LOGO"></a>
+                        </div>
+
+                        <!-- Search -->
+                        <div class="col-md-9 banner-header">
+                            <!-- Nội dung chưa có thêm  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 - Menu  -->
+            <div class="header-menu">
+                <div id="my-menu">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="logo-stick" href="index.html">
+                                <img src="images/icons/logo-01.png" alt="LOGO">
+                            </a>
+
+                            <!-- Nút chỉnh menu chế độ Lập trình mobile với ngôn ngữ Kotlin !  -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <!--  Menu cuộn  -->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html"> Trang chủ <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="category.html"> Công Nghệ </a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="category.html" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Lập Trình
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#"> Lập trình Website </a>
+                                            <a class="dropdown-item" href="#"> Lập trình Mobile </a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#"> Lập trình ứng dụng </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="category.html" tabindex="-1" aria-disabled="true">Sự Kiện </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="category.html" tabindex="-1" aria-disabled="true"> Thủ Thuật </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="category.html" tabindex="-1" aria-disabled="true"> Video </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Breadcrumb -->
+    <div class="container">
+        <div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+            <div class="f2-s-1 p-r-30 m-tb-6">
+                <a href="index.html" class="breadcrumb-item f1-s-3 cl9">
+                    Trang chủ 
+                </a>
+                
+                <span class="breadcrumb-item f1-s-3 cl9">
+                    Công nghệ
+                </span>
+            </div>
+
+            <div class="pos-relative size-a-2 bo-1-rad-22 of-hidden bocl11 m-tb-6">
+                <input class="f1-s-1 cl6 plh9 s-full p-l-25 p-r-45" type="text" name="search" placeholder="Tìm kiếm ">
+                <button class="flex-c-c size-a-1 ab-t-r fs-20 cl2 hov-cl10 trans-03">
+                    <i class="zmdi zmdi-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page heading -->
+    <div class="container p-t-4 p-b-20">
+        <h2 class="f1-l-1 cl2 ">
+            Công Nghệ
+        </h2>
+        <hr>
+    </div>
+
+    <!-- Feature Post -->
+    <section class="feature-post">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <!-- Category post -->
+                    <div class="row">
+                        <div class="col-sm-6 p-r-25 ">
+                            <!-- Item -->
+                            <div class="p-b-53">
+                                <a href="detail.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="images/congnghe-01.jpg" alt="IMG">
+                                </a>
+
+                                <div class="flex-col-s-c p-t-16">
+                                    <h5 class="p-b-5 txt-center">
+                                        <a href="detail.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            Apple trình làng AirPods (2019)
+                                        </a>
+                                    </h5>
+
+                                    <div class="cl8 txt-center p-b-17">
+                                        <a href="detail.html" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            Mobile
+                                        </a>
+
+                                        <span class="f1-s-3 m-rl-3">
+                                            -
+                                        </span>
+
+                                        <span class="f1-s-3">
+                                            Feb 18
+                                        </span>
+                                    </div>
+
+                                    <p class="f1-s-11 cl6 txt-center p-b-16">
+                                       Apple trình làng AirPods (2019): Tăng thời lượng pin, tốc độ kết nối, sạc không dây, giá từ 159 USD
+                                    </p>
+
+                                    <a href="detail.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+                                        Đọc thêm
+                                        <i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Item -->
+                            <div class="p-b-53">
+                                <a href="detail.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="images/congnghe-01.jpg" alt="IMG">
+                                </a>
+
+                                <div class="flex-col-s-c p-t-16">
+                                    <h5 class="p-b-5 txt-center">
+                                        <a href="detail.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            Apple trình làng AirPods (2019)
+                                        </a>
+                                    </h5>
+
+                                    <div class="cl8 txt-center p-b-17">
+                                        <a href="detail.html" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            Mbile
+                                        </a>
+
+                                        <span class="f1-s-3 m-rl-3">
+                                            -
+                                        </span>
+
+                                        <span class="f1-s-3">
+                                            Feb 18
+                                        </span>
+                                    </div>
+
+                                    <p class="f1-s-11 cl6 txt-center p-b-16">
+                                       Apple trình làng AirPods (2019): Tăng thời lượng pin, tốc độ kết nối, sạc không dây, giá từ 159 USD
+                                    </p>
+
+                                    <a href="detail.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+                                        Đọc thêm
+                                        <i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Item -->
+                            <div class="p-b-53">
+                                <a href="detail.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="images/entertaiment-18.jpg" alt="IMG">
+                                </a>
+
+                                <div class="flex-col-s-c p-t-16">
+                                    <h5 class="p-b-5 txt-center">
+                                        <a href="detail.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            iPhone SE 2 và sự trở lại của một smartphone tầm trung, giá chỉ 9 triệu đồng
+                                        </a>
+                                    </h5>
+
+                                    <div class="cl8 txt-center p-b-17">
+                                        <a href="detail.html" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            Mobile
+                                        </a>
+
+                                        <span class="f1-s-3 m-rl-3">
+                                            -
+                                        </span>
+
+                                        <span class="f1-s-3">
+                                            Feb 18
+                                        </span>
+                                    </div>
+
+                                    <p class="f1-s-11 cl6 txt-center p-b-16">
+                                        Chắc hẳn rất nhiều người đang mong đợi sự trở lại iPhone SE 2, và thông tin mới nhất về sản phẩm này vừa được tiết lộ thông qua các chuỗi cung ứng của Apple.
+                                    </p>
+
+                                    <a href="detail.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+                                        Đọc thêm
+                                        <i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 p-r-25 ">
+                            <!-- Item -->
+                            <div class="p-b-53">
+                                <a href="detail.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="images/congnghe-02.jpg" alt="IMG">
+                                </a>
+
+                                <div class="flex-col-s-c p-t-16">
+                                    <h5 class="p-b-5 txt-center">
+                                        <a href="detail.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            Galaxy S10+ bản "bá đạo" nhất được bán với giá cực bất ngờ
+                                        </a>
+                                    </h5>
+
+                                    <div class="cl8 txt-center p-b-17">
+                                        <a href="detail.html" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            Mobile
+                                        </a>
+
+                                        <span class="f1-s-3 m-rl-3">
+                                            -
+                                        </span>
+
+                                        <span class="f1-s-3">
+                                            Feb 18
+                                        </span>
+                                    </div>
+
+                                    <p class="f1-s-11 cl6 txt-center p-b-16">
+                                        Nhằm tri ân người Việt trong suốt 10 năm đã ủng hộ dòng smartphone Galaxy, Samsung đã đưa ra ưu đãi cực lớn với thiết bị cao cấp nhất của hãng – Galaxy S10+ phiên bản RAM 12GB, bộ nhớ trong lên tới 1TB.
+                                    </p>
+
+                                    <a href="detail.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+                                        Đọc thêm
+                                        <i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Item -->
+                            <div class="p-b-53">
+                                <a href="detail.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="images/congnghe-03.jpg" alt="IMG">
+                                </a>
+
+                                <div class="flex-col-s-c p-t-16">
+                                    <h5 class="p-b-5 txt-center">
+                                        <a href="detail.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            Google lại tiếp tục mang Apple ra làm trò cười: Cùng sử dụng chung dịch vụ Google nhưng giá iPhone X quá cao!
+                                        </a>
+                                    </h5>
+
+                                    <div class="cl8 txt-center p-b-17">
+                                        <a href="detail.html" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            Mobile
+                                        </a>
+
+                                        <span class="f1-s-3 m-rl-3">
+                                            -
+                                        </span>
+
+                                        <span class="f1-s-3">
+                                            Feb 18
+                                        </span>
+                                    </div>
+
+                                    <p class="f1-s-11 cl6 txt-center p-b-16">
+                                        Mức giá iPhone X quá cao so với Pixel 3a, nhưng cả 2 đều sử dụng chung một dịch vụ là vấn đề mà Google muốn đề cập đến.
+                                    </p>
+
+                                    <a href="detail.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+                                        Đọc thêm
+                                        <i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Item -->
+                            <div class="p-b-53">
+                                <a href="detail.html" class="wrap-pic-w hov1 trans-03">
+                                    <img src="images/congnghe-04.jpg" alt="IMG">
+                                </a>
+
+                                <div class="flex-col-s-c p-t-16">
+                                    <h5 class="p-b-5 txt-center">
+                                        <a href="detail.html" class="f1-m-3 cl2 hov-cl10 trans-03">
+                                            Trên tay OPPO F11: Thiết kế rất đẹp, màn hình giọt nước, tập trung vào camera
+                                        </a>
+                                    </h5>
+
+                                    <div class="cl8 txt-center p-b-17">
+                                        <a href="detail.html" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                            Celebrity
+                                        </a>
+
+                                        <span class="f1-s-3 m-rl-3">
+                                            -
+                                        </span>
+
+                                        <span class="f1-s-3">
+                                            Feb 18
+                                        </span>
+                                    </div>
+
+                                    <p class="f1-s-11 cl6 txt-center p-b-16">
+                                        OPPO khá khéo léo khi tung ra hai sản phẩm trong đó F11 Pro sở hữu công nghệ camera...
+                                    </p>
+
+                                    <a href="detail.html" class="f1-s-1 cl9 hov-cl10 trans-03">
+                                        Đọc thêm
+                                        <i class="m-l-2 fa fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="flex-wr-c-c m-rl--7 p-t-10 p-b-20">
+                        <a href="#" class="flex-c-c pagi-item hov-btn1 trans-03 m-all-7 pagi-active">1</a>
+                        <a href="#" class="flex-c-c pagi-item hov-btn1 trans-03 m-all-7">2</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class="tab-content-main">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item ">
+                                <a class="nav-link active" data-toggle="tab" href="#noi-bat">Nổi Bật </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " data-toggle="tab" href="#gan-day">Gần Đây </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " data-toggle="tab" href="#top-view">Top View</a>
+                            </li>
+                    </div>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="noi-bat" class="tab-pane in active">
+                            <ul>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-33.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-34.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-33.jpg">
+                                        <h3>
+                                            <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                        </h3>
+                                        <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-36.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="gan-day" class="tab-pane fade">
+                            <ul>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-07.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-08.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-09.jpg">
+                                        <h3>
+                                            <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                        </h3>
+                                        <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-04.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="top-view" class="tab-pane fade">
+                            <ul>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-24.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-25.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-26.jpg">
+                                        <h3>
+                                            <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                        </h3>
+                                        <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                                <li class="shine-o">
+                                    <a href="detail.html">
+                                        <img alt="" src="./images/post-27.jpg">
+                                    </a>
+                                    <h3>
+                                        <a href="detail.html">Có gì bất ngờ trong sự kiện CES 2019 sắp diễn ra?</a>
+                                    </h3>
+                                    <div class="post-date">19:45 22-05-2019</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bg2 p-t-40 p-b-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <a href="index.html">
+                                <img class="max-s-full" src="images/icons/logo-02.png" alt="LOGO">
+                            </a>
+                        </div>
+
+                        <div>
+                            <p class="f1-s-1 cl11 p-b-16">
+                                MAGNEWS - Trang tin tức công nghệ , xoay quanh những chủ đề về công nghệ , lập trình ,
+                                sự kiện , thủ thuật ... giúp nâng cao hiểu biết và cập nhật thông tin công nghệ cho
+                                người dùng một cách nhanh chóng và tiện lợi nhất .
+                            </p>
+
+                            <p class="f1-s-1 cl11 p-b-16">
+                                Bất kỳ câu hỏi nào ? Hãy liên hệ trực tiếp với chúng tôi : (+1) 96 716 6879
+                            </p>
+
+                            <div class="p-t-15">
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-pinterest-p"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-vimeo-v"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-youtube"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                Xem nhiều nhất
+                            </h5>
+                        </div>
+
+                        <ul>
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="images/popular-post-51.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            iPhone 2020 tích hợp FaceID và TouchID toàn màn hình, hỗ trợ 5G, camera 3D
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        Feb 17
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="images/popular-post-52.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            iPhone SE 2 và sự trở lại của một smartphone tầm trung, giá chỉ 9 triệu đồng
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        Feb 16
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="images/popular-post-53.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            Galaxy S10+ bản "bá đạo" nhất được bán với giá cực bất ngờ
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        Feb 15
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                Danh mục
+                            </h5>
+                        </div>
+
+                        <ul class="m-t--12">
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Công nghệ (22)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Lập trình (29)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Sự kiện(15)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Thủ thuật (28)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Video (16)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Nút back - to - top  -->
+    <div class="btn-back-to-top" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <span class="fas fa-angle-up"></span>
+        </span>
+    </div>
+
+    <!-- Modal Video 01-->
+    <div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document" data-dismiss="modal">
+            <div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
+
+            <div class="wrap-video-mo-01">
+                <div class="video-mo-01">
+                    <iframe src="https://www.youtube.com/embed/PneVdc7tTJs?rel=0" allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====================================== Script Link ============================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="vendor/swiper/swiper.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page </title>
+
+    <!--===================================== Icon home page ==========================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+
+    <!--======================================== CSS Link ============================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/fontawesome-5.0.8/css/fontawesome-all.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/swiper/swiper.min.css">
+</head>
+
+<body class="animsition">
+
+    <!-- Header = Topbar + Logo + Menu  -->
+    <header>
+        <div class="container-menu-desktop">
+            <!-- 1 - Topbar  -->
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="left-topbar">
+                                <div class="left-topbar-item flex-wr-s-c">
+                                    <span>
+                                        Viet Nam , VN
+                                    </span>
+
+                                    <img class="m-b-1 m-rl-8" src="images/icons/icon-night.png" alt="IMG">
+
+                                    <span>
+                                        VN 58° LO 56°
+                                    </span>
+                                    <a href="#">
+                                        <span class="fab fa-facebook-f"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-twitter"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-pinterest-p"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-vimeo-v"></span>
+                                    </a>
+
+                                    <a href="#">
+                                        <span class="fab fa-youtube"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="right-topbar">
+                                <a href="about.html" class="right-topbar-item">
+                                    Về chúng tôi
+                                </a>
+
+                                <a href="contact.html" class="right-topbar-item">
+                                    Liên hệ
+                                </a>
+
+                                <a href="register.html" class="right-topbar-item">
+                                    Đăng ký
+                                </a>
+
+                                <a href="login.html" class="right-topbar-item">
+                                    Đăng nhập
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 - Logo + Search  -->
+            <div class="wrap-logo">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo desktop -->
+                        <div class="col-md-3 logo">
+                            <a href="index.html"><img src="images/icons/logo-01.png" alt="LOGO"></a>
+                        </div>
+
+                        <!-- Search -->
+                        <div class="col-md-9 banner-header">
+                            <!-- Nội dung chưa có thêm  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 - Menu  -->
+            <div class="header-menu">
+                <div id="my-menu">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="logo-stick" href="index.html">
+                                <img src="images/icons/logo-01.png" alt="LOGO">
+                            </a>
+
+                            <!-- Nút chỉnh menu chế độ Lập trình mobile với ngôn ngữ Kotlin !  -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <!--  Menu cuộn  -->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#"> Trang chủ <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="category.html"> Công Nghệ </a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Lập Trình
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#"> Lập trình Website </a>
+                                            <a class="dropdown-item" href="#"> Lập trình Mobile </a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#"> Lập trình ứng dụng </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Sự Kiện </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"> Thủ Thuật </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"> Video </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Breadcrumb -->
+    <div class="container">
+        <div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+            <div class="f2-s-1 p-r-30 m-tb-6">
+                <a href="index.html" class="breadcrumb-item f1-s-3 cl9">
+                    Trang chủ
+                </a>
+
+                <a href="category.html" class="breadcrumb-item f1-s-3 cl9">
+                    Công nghệ
+                </a>
+
+                <span class="breadcrumb-item f1-s-3 cl9">
+                    Xiaomi Redmi 7A ra mắt: Snapdragon 439, pin 4000mAh
+                </span>
+            </div>
+
+            <div class="pos-relative size-a-2 bo-1-rad-22 of-hidden bocl11 m-tb-6">
+                <input class="f1-s-1 cl6 plh9 s-full p-l-25 p-r-45" type="text" name="search" placeholder="Search">
+                <button class="flex-c-c size-a-1 ab-t-r fs-20 cl2 hov-cl10 trans-03">
+                    <i class="zmdi zmdi-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Content -->
+    <section class="bg0 p-b-60 p-t-10">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8 p-b-30">
+                    <div class="p-r-10 p-r-0-sr991">
+                        <!-- Blog Detail -->
+                        <div class="p-b-70">
+                            <h3 class="f1-l-3 cl2 p-b-16 p-t-33 respon2">
+                                Xiaomi Redmi 7A ra mắt: Snapdragon 439, pin 4000mAh
+                            </h3>
+
+                            <div class="flex-wr-s-s p-b-40">
+                                <span class="f1-s-3 cl8 m-r-15">
+                                    <a href="#" class="f1-s-4 cl8 hov-cl10 trans-03">
+                                        by Admin
+                                    </a>
+
+                                    <span class="m-rl-3">-</span>
+
+                                    <span>
+                                        Feb 18
+                                    </span>
+                                </span>
+
+                                <span class="f1-s-3 cl8 m-r-15">
+                                    5239 Views
+                                </span>
+
+                                <a href="#" class="f1-s-3 cl8 hov-cl10 trans-03 m-r-15">
+                                    0 Comment
+                                </a>
+                            </div>
+
+
+                            <div class="wrap-pic-max-w p-b-30">
+                                <img src="images/post-00-a.jpg" alt="IMG">
+                            </div>
+                            <h4 class="f1-l-4 cl2 p-b-16 respon2">
+                                Redmi 7A là chiếc smartphone tiếp theo thuộc thương hiệu Redmi nằm trong phân khúc giá
+                                rẻ.
+                            </h4>
+
+                            <p class="f1-s-11 cl6 p-b-25">
+                                Redmi 7A là chiếc smartphone kế nhiệm cho chiếc Redmi 6A đã ra mắt từ năm ngoái. Năm
+                                nay, với việc tách ra thành một thương hiệu điện thoại riêng, đây sẽ là chiếc điện thoại
+                                thứ 4 được ra mắt với thương hiệu Redmi, thuộc phân khúc giá rẻ với cấu hình phần cứng
+                                đủ dùng.
+                            </p>
+
+                            <p class="f1-s-11 cl6 p-b-25">
+                                Về thiết kế, Redmi 7A được hoàn thiện từ vật liệu nhựa polycarbonate với lớp phủ nano
+                                P2i cho khả năng kháng nước nhẹ. Redmi cũng cho biết khay sim, cổng microUSB và jack tai
+                                nghe của máy được bảo vệ với các miếng cao su để chống nước lọt vào trong.
+                            </p>
+
+                            <p class="f1-s-11 cl6 p-b-25">
+                                Ở mặt trước, Redmi 7A được trang bị một màn hình kích thước 5.45 inch IPS LCD với tỷ lệ
+                                18:9, độ phân giải HD+. Màn hình này của máy có viền khá dày ở các cạnh, độ sáng ở mức
+                                ổn và còn được Redmi tích hợp sẵn lớp phủ lọc ánh sáng xanh giúp bảo vệ mắt người dùng.
+                                Phía trên màn hình sẽ là camera selfie 5MP cùng các cảm biến.
+                            </p>
+                            <p class="f1-s-11 cl6 p-b-25">
+                                Sang tới mặt sau, chúng ta sẽ chỉ thấy cụm camera đơn cùng đèn flash LED ở góc trên.
+                                Camera này của máy có độ phân giải 13MP, hỗ trợ PDAF và các tính năng làm đẹp bằng AI.
+                                Phía dưới là logo Redmi đặt dọc. Không có sự xuất hiện của cảm biến vân tay. Cũng dễ
+                                hiểu khi Redmi 7A chỉ là một dòng sản phẩm giá rẻ.
+                                Về cấu hình phần cứng, Redmi 7A được trang bị con chip Snapdragon 439, chưa rõ dung
+                                lượng RAM. Máy có viên pin 4000mAh hỗ trợ sạc 10W (5V/2A), chạy sẵn trên nền Android 9
+                                Pie với giao diện MIUI 10.
+                            </p>
+                            <p class="f1-s-11 cl6 p-b-25">
+                                Hiện tại, Xiaomi vẫn chưa công bố giá bán cụ thể cho chiếc Redmi 7A. Tuy nhiên mức giá
+                                của chiếc smartphone này có thể sẽ không chênh lệch quá nhiều so với chiếc Redmi 7 ra
+                                mắt hồi đầu năm. Redmi 7 có giá chỉ từ 699 tệ, tương đương 2.7 triệu cho phiên bản bộ
+                                nhớ thấp nhất RAM 2GB/16GB, do đo Redmi 7A cũng sẽ có mức giá trong khoảng từ 2-3 triệu
+                                đồng.
+                            </p>
+
+                            <!-- Tag -->
+                            <div class="flex-s-s p-t-12 p-b-15">
+                                <span class="f1-s-12 cl5 m-r-8">
+                                    Tags:
+                                </span>
+
+                                <div class="flex-wr-s-s size-w-0">
+                                    <a href="#" class="f1-s-12 cl8 hov-link1 m-r-15">
+                                        cong-nghe
+                                    </a>
+
+                                    <a href="#" class="f1-s-12 cl8 hov-link1 m-r-15">
+                                        mobile
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Share -->
+                            <div class="flex-s-s">
+                                <span class="f1-s-12 cl5 p-t-1 m-r-15">
+                                    Share:
+                                </span>
+
+                                <div class="flex-wr-s-s size-w-0">
+                                    <div class="social-media clearfix">
+                                        <ul>
+                                            <li class="twitter">
+                                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://localhost/post/{{ $post->slug }}.html" data-text="">Tweet</a>
+                                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                            </li>
+                                            <li class="facebook">
+                                                <script>(function(d, s, id) {
+                                                  var js, fjs = d.getElementsByTagName(s)[0];
+                                                  if (d.getElementById(id)) return;
+                                                  js = d.createElement(s); js.id = id;
+                                                  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                                                  fjs.parentNode.insertBefore(js, fjs);
+                                                }(document, 'script', 'facebook-jssdk'));
+                                                </script>
+                                                <div class="fb-like" data-href="http://www.nextwpthemes.com/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+                                            </li>
+                                            <li class="google_plus">
+                                                <div class="g-plusone" data-size="medium"></div>
+                                                <script type="text/javascript">
+                                                  (function() {
+                                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                                    po.src = 'https://apis.google.com/js/plusone.js';
+                                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                                  })();
+                                                </script>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- Leave a comment -->
+                        <h4 class="post-title">Bình Luận</h4>
+                        <script>(function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&appId=863868720428280";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                        <div class="fb-comments" data-href="http://localhost/post/{{$post->title}}" data-numposts="5"
+                            data-width="100%"> </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-md-10 col-lg-4 p-b-30">
+                    <div class="p-l-10 p-rl-0-sr991 p-t-70">
+                        <!-- Category -->
+                        <div class="p-b-60">
+                            <div class="how2 how2-cl4 flex-s-c">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Category
+                                </h3>
+                            </div>
+
+                            <ul class="p-t-35">
+                                <li class="how-bor3 p-rl-4">
+                                    <a href="#" class="dis-block f1-s-10 text-uppercase cl2 hov-cl10 trans-03 p-tb-13">
+                                        Fashion
+                                    </a>
+                                </li>
+
+                                <li class="how-bor3 p-rl-4">
+                                    <a href="#" class="dis-block f1-s-10 text-uppercase cl2 hov-cl10 trans-03 p-tb-13">
+                                        Beauty
+                                    </a>
+                                </li>
+
+                                <li class="how-bor3 p-rl-4">
+                                    <a href="#" class="dis-block f1-s-10 text-uppercase cl2 hov-cl10 trans-03 p-tb-13">
+                                        Street Style
+                                    </a>
+                                </li>
+
+                                <li class="how-bor3 p-rl-4">
+                                    <a href="#" class="dis-block f1-s-10 text-uppercase cl2 hov-cl10 trans-03 p-tb-13">
+                                        Life Style
+                                    </a>
+                                </li>
+
+                                <li class="how-bor3 p-rl-4">
+                                    <a href="#" class="dis-block f1-s-10 text-uppercase cl2 hov-cl10 trans-03 p-tb-13">
+                                        DIY & Crafts
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Archive -->
+                        <div class="p-b-37">
+                            <div class="how2 how2-cl4 flex-s-c">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Archive
+                                </h3>
+                            </div>
+
+                            <ul class="p-t-32">
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            July 2018
+                                        </span>
+
+                                        <span>
+                                            (9)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            June 2018
+                                        </span>
+
+                                        <span>
+                                            (39)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            May 2018
+                                        </span>
+
+                                        <span>
+                                            (29)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            April 2018
+                                        </span>
+
+                                        <span>
+                                            (35)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            March 2018
+                                        </span>
+
+                                        <span>
+                                            (22)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            February 2018
+                                        </span>
+
+                                        <span>
+                                            (32)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            January 2018
+                                        </span>
+
+                                        <span>
+                                            (21)
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="p-rl-4 p-b-19">
+                                    <a href="#" class="flex-wr-sb-c f1-s-10 text-uppercase cl2 hov-cl10 trans-03">
+                                        <span>
+                                            December 2017
+                                        </span>
+
+                                        <span>
+                                            (26)
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Popular Posts -->
+                        <div class="p-b-30">
+                            <div class="how2 how2-cl4 flex-s-c">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Popular Post
+                                </h3>
+                            </div>
+
+                            <ul class="p-t-35">
+                                <li class="flex-wr-sb-s p-b-30">
+                                    <a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
+                                        <img src="images/popular-post-04.jpg" alt="IMG">
+                                    </a>
+
+                                    <div class="size-w-11">
+                                        <h6 class="p-b-4">
+                                            <a href="blog-detail-02.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                Donec metus orci, malesuada et lectus vitae
+                                            </a>
+                                        </h6>
+
+                                        <span class="cl8 txt-center p-b-24">
+                                            <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+                                                Music
+                                            </a>
+
+                                            <span class="f1-s-3 m-rl-3">
+                                                -
+                                            </span>
+
+                                            <span class="f1-s-3">
+                                                Feb 18
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="flex-wr-sb-s p-b-30">
+                                    <a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
+                                        <img src="images/popular-post-05.jpg" alt="IMG">
+                                    </a>
+
+                                    <div class="size-w-11">
+                                        <h6 class="p-b-4">
+                                            <a href="blog-detail-02.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                Donec metus orci, malesuada et lectus vitae
+                                            </a>
+                                        </h6>
+
+                                        <span class="cl8 txt-center p-b-24">
+                                            <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+                                                Game
+                                            </a>
+
+                                            <span class="f1-s-3 m-rl-3">
+                                                -
+                                            </span>
+
+                                            <span class="f1-s-3">
+                                                Feb 16
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="flex-wr-sb-s p-b-30">
+                                    <a href="#" class="size-w-10 wrap-pic-w hov1 trans-03">
+                                        <img src="images/popular-post-06.jpg" alt="IMG">
+                                    </a>
+
+                                    <div class="size-w-11">
+                                        <h6 class="p-b-4">
+                                            <a href="blog-detail-02.html" class="f1-s-5 cl3 hov-cl10 trans-03">
+                                                Donec metus orci, malesuada et lectus vitae
+                                            </a>
+                                        </h6>
+
+                                        <span class="cl8 txt-center p-b-24">
+                                            <a href="#" class="f1-s-6 cl8 hov-cl10 trans-03">
+                                                Celebrity
+                                            </a>
+
+                                            <span class="f1-s-3 m-rl-3">
+                                                -
+                                            </span>
+
+                                            <span class="f1-s-3">
+                                                Feb 12
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Tag -->
+                        <div>
+                            <div class="how2 how2-cl4 flex-s-c m-b-30">
+                                <h3 class="f1-m-2 cl3 tab01-title">
+                                    Tags
+                                </h3>
+                            </div>
+
+                            <div class="flex-wr-s-s m-rl--5">
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Fashion
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Lifestyle
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Denim
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Streetstyle
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Crafts
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Magazine
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    News
+                                </a>
+
+                                <a href="#"
+                                    class="flex-c-c size-h-2 bo-1-rad-20 bocl12 f1-s-1 cl8 hov-btn2 trans-03 p-rl-20 p-tb-5 m-all-5">
+                                    Blogs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bg2 p-t-40 p-b-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <a href="index.html">
+                                <img class="max-s-full" src="images/icons/logo-02.png" alt="LOGO">
+                            </a>
+                        </div>
+
+                        <div>
+                            <p class="f1-s-1 cl11 p-b-16">
+                                MAGNEWS - Trang tin tức công nghệ , xoay quanh những chủ đề về công nghệ , lập trình ,
+                                sự kiện , thủ thuật ... giúp nâng cao hiểu biết và cập nhật thông tin công nghệ cho
+                                người dùng một cách nhanh chóng và tiện lợi nhất .
+                            </p>
+
+                            <p class="f1-s-1 cl11 p-b-16">
+                                Bất kỳ câu hỏi nào ? Hãy liên hệ trực tiếp với chúng tôi : (+1) 96 716 6879
+                            </p>
+
+                            <div class="p-t-15">
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-pinterest-p"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-vimeo-v"></span>
+                                </a>
+
+                                <a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+                                    <span class="fab fa-youtube"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                Xem nhiều nhất
+                            </h5>
+                        </div>
+
+                        <ul>
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="images/popular-post-51.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            iPhone 2020 tích hợp FaceID và TouchID toàn màn hình, hỗ trợ 5G, camera 3D
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        Feb 17
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="images/popular-post-52.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            iPhone SE 2 và sự trở lại của một smartphone tầm trung, giá chỉ 9 triệu đồng
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        Feb 16
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li class="flex-wr-sb-s p-b-20">
+                                <a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+                                    <img src="images/popular-post-53.jpg" alt="IMG">
+                                </a>
+
+                                <div class="size-w-5">
+                                    <h6 class="p-b-5">
+                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                            Galaxy S10+ bản "bá đạo" nhất được bán với giá cực bất ngờ
+                                        </a>
+                                    </h6>
+
+                                    <span class="f1-s-3 cl6">
+                                        Feb 15
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 p-b-20">
+                        <div class="size-h-3 flex-s-c">
+                            <h5 class="f1-m-7 cl0">
+                                Danh mục
+                            </h5>
+                        </div>
+
+                        <ul class="m-t--12">
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Công nghệ (22)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Lập trình (29)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Sự kiện(15)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Thủ thuật (28)
+                                </a>
+                            </li>
+
+                            <li class="how-bor1 p-rl-5 p-tb-10">
+                                <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+                                    Video (16)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Nút back - to - top  -->
+    <div class="btn-back-to-top" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <span class="fas fa-angle-up"></span>
+        </span>
+    </div>
+
+
+    <!--====================================== Script Link ============================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="vendor/swiper/swiper.min.js"></script>
+
+</body>
+
+</html>
